@@ -3,13 +3,73 @@
     <head>
         <meta charset="UTF-8">
         <title>Superhero</title>
-        <!--Someday I'll use CSS
         <style>
-            
+            /* CSS rules for the table */
+            table {
+                border-collapse: collapse;
+                margin: 20px auto;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                text-align: center;
+            }
+            th, td {
+                padding: 10px;
+                border: 1px solid black;
+            }
+            th {
+                background-color: #FFD700;
+                color: white;
+            }
+            td {
+                background-color: #F5F5F5;
+            }
+            img {
+                height: 100px;
+            }
         </style>
-    -->
     </head>
     <body>
-        <h1>Page Title</h1>
+        <h1>My Favorite Superheroes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Image</th>
+                    <th>Superpower</th>
+                    <th>Weakness</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peter Parker</td>
+                    <td>Spider-Man</td>
+                    <td><a href="https://i.imgur.com/8ECavzj.jpg" target="_blank"><img src="https://i.imgur.com/8ECavzj.jpg" alt="Spider-Man"></a></td>
+                    <td>Superhuman strength, speed, and agility; spider-sense</td>
+                    <td>Vulnerable to sound-based attacks and spider-sense inhibitors</td>
+                </tr>
+                <tr>
+                    <td>Diana Prince</td>
+                    <td>Wonder Woman</td>
+                    <td><a href="https://i.imgur.com/YQaObgO.jpg" target="_blank"><img src="https://i.imgur.com/YQaObgO.jpg" alt="Wonder Woman"></a></td>
+                    <td>Superhuman strength, speed, and agility; flight; magical weaponry</td>
+                    <td>Vulnerable to piercing weapons and mind control</td>
+                </tr>
+                <tr>
+                    <td>Tony Stark</td>
+                    <td>Iron Man</td>
+                    <td><a href="https://i.imgur.com/tMYdQk9.jpg" target="_blank"><img src="https://i.imgur.com/tMYdQk9.jpg" alt="Iron Man"></a></td>
+                    <td>Powered suit with flight and weapons systems</td>
+                    <td>Vulnerable to EMPs and hacking attacks</td>
+                </tr>
+                <tr>
+                    <td>Bruce Wayne</td>
+                    <td>Batman</td>
+                    <td><a href="https://i.imgur.com/PQ2ZQo4.jpg" target="_blank"><img src="https://i.imgur.com/PQ2ZQo4.jpg" alt="Batman"></a></td>
+                    <td>Expert martial artist and detective; high-tech gadgets</td>
+                    <td>No superpowers; vulnerable to physical and psychological trauma</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
