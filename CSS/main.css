@@ -12,9 +12,9 @@ body
 }
 img
 {
-  filter: grayscale(5%);  
+  filter: grayscale(20%);  
 }
-input
+#searchbox
 {
   width: 300px;
 }
