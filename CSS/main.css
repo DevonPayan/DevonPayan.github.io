@@ -14,3 +14,8 @@ img
 {
   filter: grayscale(5%);  
 }
+input
+{
+color: black;
+background-color: yellow;
+}
