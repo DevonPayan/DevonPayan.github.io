@@ -14,7 +14,7 @@ img
 {
   filter: grayscale(5%);  
 }
-input
+input, select, option
 {
 color: black;
 background-color: yellow;
